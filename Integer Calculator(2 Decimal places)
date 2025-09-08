@@ -1,0 +1,7 @@
+print("Please enter numbers with at least 2 decimal places")
+num1 = float(input("Enter First number: "))
+num2 = float(input("Enter Second number: "))
+num3 = float(input("Enter Third number: "))
+Ans = num1 + num2 + num3
+print(Ans)
+print(f"Sum (formatted to 2 decimal places): {Ans:.2f}")
