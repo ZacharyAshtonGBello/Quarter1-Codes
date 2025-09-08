@@ -2,6 +2,9 @@ v_value = float(input("Enter velocity value: "))
 v_unit = input("Enter velocity unit (m/s, ft/s, km/s, mi/s): ")
 a_value = float(input("Enter acceleration value: "))
 a_unit = input("Enter acceleration unit (m/s², ft/s², km/s², mi/s²): ")
+v_si = convert_velocity(v_value, v_unit)      # TODO: Call the conversion function
+a_si = convert_acceleration(a_value, a_unit)  # TODO: Call the conversion function
+motion = motion_type(v_si, a_si)              # TODO: Call the motion type function
 
 
 # Function 1: Convert velocity to m/s
